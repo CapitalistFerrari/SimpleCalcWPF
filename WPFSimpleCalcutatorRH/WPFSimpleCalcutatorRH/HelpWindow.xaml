@@ -1,0 +1,24 @@
+﻿<Window x:Class="WPFSimpleCalcutatorRH.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFSimpleCalcutatorRH"
+        mc:Ignorable="d"
+        Title="HelpWindow" Height="450" Width="800">
+    <StackPanel>
+        <TextBlock
+            Text="If you need help with this app, then there isn't much hope for you."
+            TextAlignment="Center"
+            Margin="0,20,0,20"/>
+        <Button
+            x:Name="Button_CloseButton"
+            Content="Close"
+            Click="Button_CloseButton_Click"
+            Width="100"/>
+
+
+
+
+    </StackPanel>
+</Window>
